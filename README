@@ -1,0 +1,193 @@
+ggz-gtk-games
+------------------------------------------
+GGZ Gaming Zone GTK+ game collection.
+
+The classic GGZ game clients are all implemented using the Gtk+ toolkit. 
+This includes Chess, Chinese Checkers, Combat, Connect the Dots, 
+GGZCards (for multiple cards games), Hastings1066, Reversi, and 
+Tic-Tac-Toe.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  gdk-pixbuf2-2.12.9-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.9-1
+  libggz2-0.0.14.1-1
+  libggzmod4-0.0.14.1-1
+  libintl8-0.15-1
+  pango-1.18.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.ggzgamingzone.org/packages/
+
+Canonical download:
+  ftp://ftp.ggzgamingzone.org/pub/ggz/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ggz-gtk-games-0.0.14.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ggz-gtk-games-0.0.14.1-X.cygport all
+
+This will create:
+  /usr/src/ggz-gtk-games-0.0.14.1-X-src.tar.bz2
+  /usr/src/ggz-gtk-games-0.0.14.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/ggz/games/ggz.ccheckers.dsc
+  /etc/ggz/games/ggz.chess.dsc
+  /etc/ggz/games/ggz.combat.dsc
+  /etc/ggz/games/ggz.dots.dsc
+  /etc/ggz/games/ggz.ggzcards.dsc
+  /etc/ggz/games/ggz.hastings.dsc
+  /etc/ggz/games/ggz.reversi.dsc
+  /etc/ggz/games/ggz.spades.dsc
+  /etc/ggz/games/ggz.ttt.dsc
+  /etc/postinstall/ggz-gtk-games.sh
+  /etc/preremove/ggz-gtk-games.sh
+  /usr/lib/ggz/ggz.ccheckers.exe
+  /usr/lib/ggz/ggz.chess.exe
+  /usr/lib/ggz/ggz.combat.exe
+  /usr/lib/ggz/ggz.dots.exe
+  /usr/lib/ggz/ggz.ggzcards.exe
+  /usr/lib/ggz/ggz.hastings.exe
+  /usr/lib/ggz/ggz.reversi.exe
+  /usr/lib/ggz/ggz.spades.exe
+  /usr/lib/ggz/ggz.ttt.exe
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/AUTHORS
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/COPYING
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/ChangeLog
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/INSTALL
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/NEWS
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/README
+  /usr/share/doc/ggz-gtk-games-0.0.14.1/TODO
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/blue.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/board.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/cyan.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/green.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/hole.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/purple.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/red.png
+  /usr/share/ggz/ccheckers/pixmaps/Dragon/yellow.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/blue.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/board.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/cyan.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/green.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/hole.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/purple.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/red.png
+  /usr/share/ggz/ccheckers/pixmaps/Electric/yellow.png
+  /usr/share/ggz/ccheckers/pixmaps/default/blue.png
+  /usr/share/ggz/ccheckers/pixmaps/default/board.png
+  /usr/share/ggz/ccheckers/pixmaps/default/cyan.png
+  /usr/share/ggz/ccheckers/pixmaps/default/green.png
+  /usr/share/ggz/ccheckers/pixmaps/default/hole.png
+  /usr/share/ggz/ccheckers/pixmaps/default/purple.png
+  /usr/share/ggz/ccheckers/pixmaps/default/red.png
+  /usr/share/ggz/ccheckers/pixmaps/default/yellow.png
+  /usr/share/ggz/ccheckers/pixmaps/templates/README
+  /usr/share/ggz/ccheckers/pixmaps/templates/blue.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/board.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/cyan.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/green.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/hole.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/purple.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/red.svg
+  /usr/share/ggz/ccheckers/pixmaps/templates/yellow.svg
+  /usr/share/ggz/chess/pixmaps/bishop_b.svg
+  /usr/share/ggz/chess/pixmaps/bishop_w.svg
+  /usr/share/ggz/chess/pixmaps/king_b.svg
+  /usr/share/ggz/chess/pixmaps/king_w.svg
+  /usr/share/ggz/chess/pixmaps/knight_b.svg
+  /usr/share/ggz/chess/pixmaps/knight_w.svg
+  /usr/share/ggz/chess/pixmaps/pawn_b.svg
+  /usr/share/ggz/chess/pixmaps/pawn_w.svg
+  /usr/share/ggz/chess/pixmaps/queen_b.svg
+  /usr/share/ggz/chess/pixmaps/queen_w.svg
+  /usr/share/ggz/chess/pixmaps/rook_b.svg
+  /usr/share/ggz/chess/pixmaps/rook_w.svg
+  /usr/share/ggz/combat/maps/8x8.127742
+  /usr/share/ggz/combat/maps/Bridge.127237
+  /usr/share/ggz/combat/maps/Checkers+Options.5003353
+  /usr/share/ggz/combat/maps/Checkers.4227780237
+  /usr/share/ggz/combat/maps/Corridors.1483793000
+  /usr/share/ggz/combat/maps/Default.127898
+  /usr/share/ggz/combat/maps/In_The_Wild.33347979
+  /usr/share/ggz/combat/maps/Island_I.1321921533
+  /usr/share/ggz/combat/maps/Island_II.1321922021
+  /usr/share/ggz/combat/maps/Isles.3312569487
+  /usr/share/ggz/combat/maps/Pipes.1854974081
+  /usr/share/ggz/combat/maps/Plenty_of_options.8183865
+  /usr/share/ggz/combat/maps/Small.4176275962
+  /usr/share/ggz/combat/pixmaps/default/bomb.png
+  /usr/share/ggz/combat/pixmaps/default/captain.png
+  /usr/share/ggz/combat/pixmaps/default/colonel.png
+  /usr/share/ggz/combat/pixmaps/default/flag.png
+  /usr/share/ggz/combat/pixmaps/default/general.png
+  /usr/share/ggz/combat/pixmaps/default/lieutenant.png
+  /usr/share/ggz/combat/pixmaps/default/major.png
+  /usr/share/ggz/combat/pixmaps/default/marshall.png
+  /usr/share/ggz/combat/pixmaps/default/miner.png
+  /usr/share/ggz/combat/pixmaps/default/scout.png
+  /usr/share/ggz/combat/pixmaps/default/sergeant.png
+  /usr/share/ggz/combat/pixmaps/default/spy.png
+  /usr/share/ggz/hastings/pixmaps/bayeux.png
+  /usr/share/ggz/hastings/pixmaps/frame_black.png
+  /usr/share/ggz/hastings/pixmaps/frame_ll.png
+  /usr/share/ggz/hastings/pixmaps/frame_lr.png
+  /usr/share/ggz/hastings/pixmaps/frame_ul.png
+  /usr/share/ggz/hastings/pixmaps/frame_ur.png
+  /usr/share/ggz/hastings/pixmaps/haroldsreturn.png
+  /usr/share/ggz/hastings/pixmaps/map.png
+  /usr/share/ggz/hastings/pixmaps/newmanblue.png
+  /usr/share/ggz/hastings/pixmaps/newmangreen.png
+  /usr/share/ggz/hastings/pixmaps/newmanred.png
+  /usr/share/ggz/hastings/pixmaps/newmanyellow.png
+  /usr/share/ggz/hastings/pixmaps/shadow.png
+  /usr/share/ggz/pixmaps/cards-1.png
+  /usr/share/ggz/pixmaps/cards-b1.png
+  /usr/share/ggz/reversi/pixmaps/black.svg
+  /usr/share/ggz/reversi/pixmaps/dot.svg
+  /usr/share/ggz/reversi/pixmaps/enemydot.svg
+  /usr/share/ggz/reversi/pixmaps/white.svg
+  /usr/share/ggz/tictactoe/pixmaps/o.svg
+  /usr/share/ggz/tictactoe/pixmaps/x.svg
+  /usr/share/locale/de/LC_MESSAGES/chess.mo
+  /usr/share/locale/de/LC_MESSAGES/chinese-checkers.mo
+  /usr/share/locale/de/LC_MESSAGES/combat.mo
+  /usr/share/locale/de/LC_MESSAGES/common.mo
+  /usr/share/locale/de/LC_MESSAGES/dots.mo
+  /usr/share/locale/de/LC_MESSAGES/ggzcards.mo
+  /usr/share/locale/de/LC_MESSAGES/hastings.mo
+  /usr/share/locale/de/LC_MESSAGES/reversi.mo
+  /usr/share/locale/de/LC_MESSAGES/spades.mo
+  /usr/share/locale/de/LC_MESSAGES/tictactoe.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.0.14.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
