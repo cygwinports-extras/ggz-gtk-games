@@ -1,0 +1,5 @@
+inherit ggz
+
+PATCH_URI="0.0.14.1-gettext015.patch"
+
+GGZMODS="*/module.dsc"

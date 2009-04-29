@@ -8,25 +8,27 @@ GGZCards (for multiple cards games), Hastings1066, Reversi, and
 Tic-Tac-Toe.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  gdk-pixbuf2-2.12.9-1
-  glib2-2.14.6-1
-  gtk2-x11-2.12.9-1
-  libggz2-0.0.14.1-1
-  libggzmod4-0.0.14.1-1
-  libintl8-0.15-1
-  pango-1.18.4-1
+  cygwin-1.7.0-45
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.1-1
+  libggz2-0.0.14.1-10
+  libggzmod4-0.0.14.1-10
+  libglib2.0_0-2.20.1-1
+  libgtk2.0_0-2.16.1-1
+  libintl8-0.17-10
+  libpango1.0_0-1.24.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  binutils-20060817-1
-  cygport-0.3.11-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-12
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -72,13 +74,12 @@ Files included in the binary package:
   /usr/lib/ggz/ggz.reversi.exe
   /usr/lib/ggz/ggz.spades.exe
   /usr/lib/ggz/ggz.ttt.exe
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/AUTHORS
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/COPYING
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/ChangeLog
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/INSTALL
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/NEWS
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/README
-  /usr/share/doc/ggz-gtk-games-0.0.14.1/TODO
+  /usr/share/doc/ggz-gtk-games/AUTHORS
+  /usr/share/doc/ggz-gtk-games/COPYING
+  /usr/share/doc/ggz-gtk-games/ChangeLog
+  /usr/share/doc/ggz-gtk-games/NEWS
+  /usr/share/doc/ggz-gtk-games/README
+  /usr/share/doc/ggz-gtk-games/TODO
   /usr/share/ggz/ccheckers/pixmaps/Dragon/blue.png
   /usr/share/ggz/ccheckers/pixmaps/Dragon/board.png
   /usr/share/ggz/ccheckers/pixmaps/Dragon/cyan.png
@@ -185,8 +186,8 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 0.0.14.1-1 -----
-Initial release for Cygwin.
+----- version 0.0.14.1-10 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

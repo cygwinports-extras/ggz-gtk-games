@@ -1,6 +1,6 @@
 category: Games Gnome
-requires: cygwin gdk-pixbuf2 glib2 gtk2-x11 libggz2 libggzmod4 libintl8 pango
-sdesc: "GGZ Gaming Zone GTK+ game collection."
+requires: cygwin libgcc1 libgdk_pixbuf2.0_0 libggz2 libggzmod4 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0
+sdesc: "GGZ Gaming Zone GTK+ game collection"
 ldesc: "The classic GGZ game clients are all implemented using the Gtk+ 
 toolkit. This includes Chess, Chinese Checkers, Combat, Connect the 
 Dots, GGZCards (for multiple cards games), Hastings1066, Reversi, and 
